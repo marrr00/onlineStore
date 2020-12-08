@@ -1,0 +1,70 @@
+/* import fonts from google*/
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Lato:wght@300&family=Roboto:wght@300&family=Source+Code+Pro:wght@300&display=swap');
+:root{
+    --light-gray:#2b3032a1;
+    --primary-color:#bb4357a1;
+    --border:#2b3032a1;
+    --text-color:#2b3032a1;
+    --roboto:"Roboto",sans-serif;
+    --source-pro:"Source Code Pro",cursive;
+   
+}
+
+
+
+header .container{
+    background-color: var(--primary-color);
+    margin: 0em;
+    /* margin-right: 0em; */
+}
+header .container-fluid{
+    /* padding: 6px; */
+}
+header .site-title{
+    color:#e8ebec;
+    font-family: var(--roboto);
+}
+.container .dropdown-toggle,
+.container .dropdown-item{
+    font-size:0.7em;
+}
+.header-links a{
+    font-size: 0.9em;
+    text-decoration: none;
+    color:white;
+}
+
+
+/* nav bar*/
+.navbar-nav{
+    padding:0.8em 0em;
+}
+.navbar-nav .nav-link{
+    font-size: 0.9em;
+    color:var(--light-gray)!important
+}
+.navbar-nav .nav-item .nav-link{
+    padding: 0 1.3em;
+}
+.navbar-nav .shoping-cart-icon{
+    margin-right: 6.5em;
+}
+/* .navbar-brand {
+    color:var(--light-gray)!important
+} */
+
+/*SLIDER ONE*/
+.site-slider{
+    position: relative;
+}
+.position-top{
+
+}
+.site-slider .slider-btn .prev,
+.site-slider .slider-btn .next{
+
+    border-radius:10rem;
+}
+.right-0{
+    right:0;
+}
